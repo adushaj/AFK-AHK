@@ -1,5 +1,4 @@
 #MaxThreadsPerHotkey 2
-;Brock is a twat
 
 ^F5::
 Loop{
@@ -45,6 +44,11 @@ Send,{f down}
 sleep 10
 Send,{f up}
 sleep 5000
+
+Send,{e down}
+sleep 10
+Send,{e up}
+sleep 3000
 }
 return
 
