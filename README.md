@@ -16,4 +16,6 @@ At this point, the script is loaded but is not executing the events until you hi
 - To completely shut down the script, hit `CTRL + F7`. Note that this command will require you to minimize Destiny 2 and run step 4 above. This should only be used in the event you cannot regain control of your PC.
 
 ## Disclaimer
-I have not thoroughly tested if this is capable of fooling Destiny 2's AFK Kicker. I will adjust the steps until I am confident it works.  
+~~I have not thoroughly tested if this is capable of fooling Destiny 2's AFK Kicker. I will adjust the steps until I am confident it works.~~
+
+As of 8/2/19, this is confirmed working in Vanguard Strikes.
