@@ -6,7 +6,7 @@
 
 1. Install AutoHotKey by visiting [here](https://www.autohotkey.com/).
 2. Right click on your desktop or File Explorer -> New -> Autohotkey Script
-3. Copy and paste the contents of the `AFK.ahk` file in this repository and save.
+3. Copy and paste the contents of the `AFK.ahk` file in this repository either by going [here](https://raw.githubusercontent.com/adushaj/AFK-AHK/master/AFK.ahk) and save.
 4. Right click on the file, hit `run script` then go into Destiny 2 and enter the activity you wish to idle in.
 
 At this point, the script is loaded but is not executing the events until you hit a hotkey.
