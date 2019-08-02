@@ -12,7 +12,7 @@
 At this point, the script is loaded but is not executing the events until you hit a hotkey.
 
 - To start executing, hit `CTRL + F5`.
-- To pause the execution, hit `Pause/Break`.
+- To pause or resume the execution, hit `Pause/Break`.
 - To completely shut down the script, hit `CTRL + F7`. Note that this command will require you to minimize Destiny 2 and run step 4 above. This should only be used in the event you cannot regain control of your PC.
 
 ## Disclaimer
