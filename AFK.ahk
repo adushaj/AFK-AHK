@@ -1,56 +1,75 @@
-#MaxThreadsPerHotkey 2
-
 ^F5::
-Loop{
+  SetTimer, AFK, 10
+  Return
 
-Send,{click}
-sleep 1000
-Send,{click}
-sleep 10
-Send,{click}
-sleep 10
+pause::
+  Send,{Space up} 
+  Send,{w up}
+  Send,{s up}  
+  Send,{d up}
+  Send,{a up}
+  Send,{q up}
+  Send,{f up}
+  Send,{e up}
+  Pause
 
-Send,{Space down}
-sleep 10
-Send,{Space up}
-sleep 3000
+^F7::
+  Send,{Space up} 
+  Send,{w up}
+  Send,{s up}  
+  Send,{d up}
+  Send,{a up}
+  Send,{q up}
+  Send,{f up}
+  Send,{e up}
+  ExitApp
+  
+AFK:
+  Send,{click}
+  Sleep 1000
+  Send,{click}
+  Sleep 10
+  Send,{click}
+  Sleep 10
 
-Send,{w down}
-sleep 3000
-Send,{w up}
-sleep 50
+  Send,{Space down}
+  Sleep 10
+  Send,{Space up}
+  Sleep 3000
 
-Send,{s down}
-sleep 3000
-Send,{s up}
-sleep 50
+  Send,{w down}
+  Sleep 3000
+  Send,{w up}
+  Sleep 50
 
-Send,{d down}
-sleep 1000
-Send,{d up}
-sleep 50
+  Send,{s down}
+  Sleep 3000
+  Send,{s up}
+  Sleep 50
 
-Send,{a down}
-sleep 1000
-Send,{a up}
-sleep 50
+  Send,{d down}
+  Sleep 1000
+  Send,{d up}
+  Sleep 50
 
-Send,{q down}
-sleep 10
-Send,{q up}
-sleep 10
+  Send,{a down}
+  Sleep 1000
+  Send,{a up}
+  Sleep 50
 
-Send,{f down}
-sleep 10
-Send,{f up}
-sleep 5000
+  Send,{q down}
+  Sleep 10
+  Send,{q up}
+  Sleep 10
 
-Send,{e down}
-sleep 10
-Send,{e up}
-sleep 3000
-}
-return
+  Send,{f down}
+  Sleep 10
+  Send,{f up}
+  Sleep 5000
 
-pause::Pause
-^F7::ExitApp
+  Send,{e down}
+  Sleep 10
+  Send,{e up}
+  Sleep 3000
+  Return
+
